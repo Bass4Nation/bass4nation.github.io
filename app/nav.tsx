@@ -8,7 +8,7 @@ const links = ['Frontpage', 'About me', 'Github repos']
 export default function Nav() {
   return (
     <nav className={style.navbox} >
-        <h1 className={style.toptitle}>Kristoffer Snopestad Søderkvist portfolio page</h1>
+        <h1 className={style.toptitle}>Kristoffer Snopestad Søderkvist</h1>
         <h2 className={style.undertitle}>portfolio page</h2>
         <ul className={style.navbar}>
             {links.map((text) =>
