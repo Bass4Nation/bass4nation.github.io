@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+* {
+  background-color: #f0f0f0;
+}
+/* Navigation Styles */
+.navigation-header {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+}
+.navigation-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+list-style-type: none;}
