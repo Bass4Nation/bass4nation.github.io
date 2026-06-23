@@ -5,15 +5,15 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+    
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
-
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v4
